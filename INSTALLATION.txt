@@ -1,0 +1,56 @@
+# INVENTORY CONTROL SYSTEM - INSTALLATION GUIDE
+
+## System Requirements
+- XAMPP (PHP 7.4+, MySQL 5.7+)
+- Web Browser (Chrome, Firefox, etc.)
+
+## Step-by-Step Installation
+
+### 1. Install XAMPP
+- Download XAMPP from https://www.apachefriends.org
+- Install XAMPP in default location (C:\xampp)
+- Start Apache and MySQL from XAMPP Control Panel
+
+### 2. Create Project Folder
+- Navigate to C:\xampp\htdocs
+- Create folder named 'inventory_system'
+- Copy all project files into this folder
+
+### 3. Database Setup
+- Open browser and go to http://localhost/phpmyadmin
+- Click on "New" to create database
+- Name it 'inventory_system' and click Create
+- Click on "Import" tab
+- Click "Choose File" and select 'database.sql'
+- Click "Go" to import
+
+### 4. Configure Database Connection
+- Open 'includes/config.php'
+- Verify database credentials:
+  - Host: localhost
+  - Username: root
+  - Password: (leave empty for XAMPP)
+  - Database: inventory_system
+
+### 5. Access the Application
+- Open browser and go to: http://localhost/inventory_system/login.php
+- Login with default credentials:
+  - Admin: username: admin, password: admin123
+  - Staff: username: staff, password: staff123
+
+## Features
+✅ User Authentication (Login/Logout)
+✅ Dashboard with Statistics
+✅ Product Management (CRUD)
+✅ Category Management
+✅ Supplier Management
+✅ Stock In/Out Transactions
+✅ Real-time Stock Updates
+✅ Low Stock Alerts
+✅ Reports Generation
+✅ Role-based Access Control
+✅ Responsive Design
+✅ Export to Excel/CSV
+✅ Print Reports
+
+## Folder Structure
