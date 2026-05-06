@@ -1,0 +1,1 @@
+body{font-family:Arial;background:#f8fafc;padding:20px}.wrap{max-width:900px;margin:auto;background:#fff;padding:20px;border-radius:12px}.controls{display:flex;gap:10px;margin-bottom:15px}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;padding:10px}

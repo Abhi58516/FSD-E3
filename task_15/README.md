@@ -1,0 +1,1 @@
+Simple service registry/discovery concept implemented without Eureka.

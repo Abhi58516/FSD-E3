@@ -1,0 +1,1 @@
+app.post('/events',(req,res)=>{ /* AI generated sample */ });

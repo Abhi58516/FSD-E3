@@ -1,0 +1,1 @@
+test('sample controller response',()=>{const response={status:'ok'}; expect(response.status).toBe('ok');});

@@ -1,0 +1,1 @@
+const express=require('express');const fetch=require('node-fetch');const app=express();app.get('/dashboard',async(req,res)=>{try{const r=await fetch('http://localhost:3002/events');const events=await r.json();res.json({status:'success',events});}catch(e){res.status(503).json({status:'failed',message:'Dependent service unavailable'});}});app.listen(3004);

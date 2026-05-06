@@ -1,0 +1,1 @@
+const users=[{username:'admin',password:'1234'}];function login(){const u=username.value.trim();const p=password.value.trim();if(!u||!p){msg.textContent='All fields are required';msg.style.color='red';return;}const ok=users.find(x=>x.username===u&&x.password===p);msg.textContent=ok?'Login successful':'Invalid credentials';msg.style.color=ok?'green':'red';}

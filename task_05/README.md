@@ -1,0 +1,1 @@
+Simulates digital payment using transaction logic with COMMIT and ROLLBACK.

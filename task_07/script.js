@@ -1,0 +1,1 @@
+function validateText(e){if(e.key==='!') e.preventDefault();}function hoverField(el){el.style.border='2px solid #7c3aed';}function unhoverField(el){el.style.border='1px solid #ccc';}function submitForm(){msg.textContent='Feedback submitted successfully';msg.style.color='green';}

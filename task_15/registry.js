@@ -1,0 +1,1 @@
+const registry={}; function register(name,url){registry[name]=url;} function discover(name){return registry[name];} register('user-service','http://localhost:3001'); register('event-service','http://localhost:3002'); console.log(discover('user-service'));

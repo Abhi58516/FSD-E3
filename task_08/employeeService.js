@@ -1,0 +1,1 @@
+class EmployeeService{constructor(repository){this.repository=repository;} addEmployee(emp){this.repository.push(emp);} getEmployees(){return this.repository;}} module.exports=EmployeeService;

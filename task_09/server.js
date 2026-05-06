@@ -1,0 +1,1 @@
+const express=require('express');const app=express();app.set('view engine','ejs');app.get('/employee/:id',(req,res)=>{res.render('employee',{employee:{id:req.params.id,name:'Priya',department:'CSE'}})});app.listen(3000);

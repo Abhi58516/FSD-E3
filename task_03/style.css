@@ -1,0 +1,1 @@
+body{font-family:Arial;background:#e0f2fe;display:flex;justify-content:center;align-items:center;height:100vh}.box{background:#fff;padding:24px;border-radius:14px;box-shadow:0 10px 25px rgba(0,0,0,.08);width:320px}.box input,.box button{width:100%;padding:12px;margin:8px 0}

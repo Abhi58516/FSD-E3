@@ -1,0 +1,1 @@
+const EmployeeService=require('./employeeService'); const repo=[]; const service=new EmployeeService(repo); service.addEmployee({id:1,name:'Kiran',role:'HR'}); console.log(service.getEmployees());

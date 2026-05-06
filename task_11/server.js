@@ -1,0 +1,1 @@
+const express=require('express');const repo=require('./repository');const app=express();app.get('/students/by-department/:department',(req,res)=>res.json(repo.findByDepartment(req.params.department,1,10)));app.get('/students/age/:age',(req,res)=>res.json(repo.findByAgeGreaterThan(Number(req.params.age))));app.listen(3000);

@@ -1,0 +1,1 @@
+const express=require('express');const app=express();app.get('/users',(req,res)=>res.json([{id:1,name:'Arun'}]));app.listen(3001);

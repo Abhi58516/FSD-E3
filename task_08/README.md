@@ -1,0 +1,1 @@
+Demonstrates IoC/DI idea without Java by injecting repository into EmployeeService.

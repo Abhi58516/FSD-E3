@@ -1,0 +1,1 @@
+Run with `npm install --save-dev jest` and `npx jest`.

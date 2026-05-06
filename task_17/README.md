@@ -1,0 +1,1 @@
+REST-based inter-service communication with graceful failure handling.

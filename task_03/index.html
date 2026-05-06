@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Login</title><link rel='stylesheet' href='style.css'></head><body><div class='box'><h1>Login</h1><input id='username' placeholder='Username'><input id='password' type='password' placeholder='Password'><button onclick='login()'>Login</button><p id='msg'></p></div><script src='script.js'></script></body></html>

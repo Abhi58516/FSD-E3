@@ -1,0 +1,1 @@
+Two independently deployable services with loose coupling and single responsibility.

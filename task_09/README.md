@@ -1,0 +1,1 @@
+Basic MVC flow using Express route as controller and EJS template as view.

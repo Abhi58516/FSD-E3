@@ -1,0 +1,1 @@
+const express=require('express');const app=express();const servicePool=['http://localhost:3002','http://localhost:3003'];let idx=0;app.get('/api/events',(req,res)=>{const target=servicePool[idx++ % servicePool.length];res.json({message:'Request routed',target});});app.listen(4000);
